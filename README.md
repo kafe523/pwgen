@@ -4,6 +4,8 @@ Simple cli tool for generate one time password build with rust.
 
 First character will always be alphabet, so the result can be unquote string in YAML.
 
+Windows only.
+
 ```
 Usage: pwgen.exe [OPTIONS]
 
