@@ -45,5 +45,5 @@ fn main() {
     }
 
     let result: Vec<char> = gen_random_vector(&args.length, &args.filter.unwrap_or_default());
-    print!("{}", &result.iter().collect::<String>())
+    println!("{}", &result.iter().collect::<String>())
 }
